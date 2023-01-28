@@ -1,0 +1,91 @@
+.header {
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.header__info{
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    gap: 60px;
+}
+
+.header__list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+.header__text{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #303030;
+}
+.header__location-img{
+    width: 12px;
+    height: 16px;
+}
+.header__phone-img{
+    width: 16px;
+    height: 16px;
+}
+.header__arrow{
+    width: 9px;
+    height: 9px;
+    align-self: center;
+}
+
+.header__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header__jewelry{
+    width: 178px;
+    height: 14px;
+}
+.header__logo-icon{
+    width: 183px;
+    height: 38px;
+}
+
+.header_block{
+    display: flex;
+    gap: 71px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__login-reg-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.header__shopping-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.header__login-menu{
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.header__shopping-menu-icon{
+    list-style: none;
+    width: 20px;
+    height: 20px;
+}
